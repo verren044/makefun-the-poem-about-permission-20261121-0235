@@ -16,7 +16,9 @@ const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 // and the human gives. The turn is the pause: not speed or reach but the
 // question, the small door left open for a yes. The ending lands on the
 // insight that the work is mine because the yes was mine — agency lives in
-// the giving, not the doing.
+// the giving, not the doing. Revised (parent): the closing now returns the
+// work "wearing my name", a concrete image instead of the bare assertion,
+// so the last line lands rather than repeats.
 const POEM = [
   'It asked before it acted.',
   'That was the new thing:',
@@ -25,10 +27,10 @@ const POEM = [
   'the small door it left open',
   'for my yes.',
   '',
-  'I said yes, and it went,',
+  'I said yes. It went,',
   'and the work it did',
-  'was mine — because',
-  'the yes was mine.',
+  'came back wearing my name —',
+  'because the yes was mine.',
 ].join('\n');
 
 mkdirSync(OUTPUT_DIR, { recursive: true });

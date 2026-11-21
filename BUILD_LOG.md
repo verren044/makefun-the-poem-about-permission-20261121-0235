@@ -44,3 +44,10 @@ the yes was mine.
 - Local git commit: see BUILDER-DONE.txt for commit SHA
 - NOT pushed, NO GitHub repo created, NOT submitted — parent agent to handle
   repo creation, kit check, bundle, and submit before deadline 13:35 WIB.
+
+## Revision (parent, 21 Nov 2026 ~12:59 WIB, thinking_revised fix)
+- Closing sharpened: "I said yes, and it went, / and the work it did / was
+  mine — because / the yes was mine." became "I said yes. It went, / and the
+  work it did / came back wearing my name — / because the yes was mine." —
+  the work now returns with a concrete image instead of a bare assertion.
+- Re-verified: two runs byte-identical, within gate 1–280 chars.
